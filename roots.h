@@ -27,7 +27,7 @@ extern "C" {
 void load_volume_table();
 
 // Return the Volume* record for this path (or NULL).
-Volume* volume_for_path(const char* path);
+//Volume* volume_for_path(const char* path);
 
 // Make sure that the volume 'path' is on is mounted.  Returns 0 on
 // success (volume is mounted).
